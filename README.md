@@ -33,7 +33,7 @@
 ### Analog Circuit Modeling
 
 - Efficient Performance Trade-off Modeling for Analog Circuit based on Bayesian Neural Network [[PDF]](https://ieeexplore.ieee.org/abstract/document/8942174)
-  - Zhengqi Gao, Jun Tao, Fan Yang, Yangfeng su, Dian zhou ,and Xuan Zeng, iccad 2019
+  - *Zhengqi Gao, Jun Tao, Fan Yang, Yangfeng su, Dian zhou ,and Xuan Zeng, iccad 2019*
 
 - Co-learning Bayesian model fusion: Efﬁcient performance modeling of analog and mixed-signal circuits using side information [[PDF]](https://ieeexplore.ieee.org/abstract/document/7372621/)
   - *Fa Wang, Manzil Zaheer, Xin Li, Jean-Olivier Plouchart, and Alberto Valdes-Garcia, ICCAD, 2015*
@@ -103,15 +103,15 @@
 - Deep Reinforcement Learning for Analog Circuit Sizing with an Electrical Design Space and Sparse Rewards [[PDF]](https://dl.acm.org/doi/abs/10.1145/3551901.3556474)
   - *Yannick Uhlmann, Michael Essich, Lennart Bramlage, Jürgen Scheible, and Cristóbal Curio, MLCAD 2022*
 - Domain Knowledge-Infused Deep Learning for Automated Analog/Radio-Frequency Circuit Parameter Optimization [[PDF]](https://dl.acm.org/doi/10.1145/3489517.3530501)
-  - Weidong Cao, Mouhacine Benosman, Xuan Zhang, Rui Ma, DAC 2022
+  - *Weidong Cao, Mouhacine Benosman, Xuan Zhang, Rui Ma, DAC 2022*
 - VLSI Placement Parameter Optimization using Deep Reinforcement Learning [[PDF]](https://dl.acm.org/doi/10.1145/3400302.3415690)
-  - Anthony Agnesina, Kyungwook Chang, and Sung Kyu Lim, ICCAD 2020
+  - *Anthony Agnesina, Kyungwook Chang, and Sung Kyu Lim, ICCAD 2020*
 - GCN-RL Circuit Designer: Transferable Transistor Sizing with Graph Neural Networks and Reinforcement Learning [[PDF]](https://ieeexplore.ieee.org/abstract/document/9218757)
-  - Hanrui Wang, Kuan Wang, Jiacheng Yang, Linxiao Shen, Nan Sun, Hae-Seung Lee, Song Han, DAC 2020
+  - *Hanrui Wang, Kuan Wang, Jiacheng Yang, Linxiao Shen, Nan Sun, Hae-Seung Lee, Song Han, DAC 2020*
 
 ### Analog Circuit Performance Space Exploration
 
-- An efﬁcient learning based approach for performance exploration on analog and RF circuit synthesis
+- An efﬁcient learning based approach for performance exploration on analog and RF circuit synthesis [[PDF]](https://dl.acm.org/doi/abs/10.1145/3316781.3322467)
   - *Po-Cheng Pan, Chien-Chia Huang, and Hung-Ming Chen, DAC 2019*
 - An Analog/RF Circuit Synthesis and Design Assistant Tool for Analog IP: DATA-IP
 
@@ -178,8 +178,7 @@
 ### Analog Circuit Placement
 
 - Are Analytical Techniques Worthwhile for Analog IC Placement? [[PDF]](https://ieeexplore.ieee.org/document/9774498/)
-
-Yishuang Lin, Yaguang Li, Donghao Fang, Meghna Madhusudan, Sachin S. Sapatnekar, Ramesh Harjani, Jiang Hu, DATE 2022
+  - *Yishuang Lin, Yaguang Li, Donghao Fang, Meghna Madhusudan, Sachin S. Sapatnekar, Ramesh Harjani, Jiang Hu, DATE 2022*
 
 - Align: Open-source analog layout automation from the ground up
 
@@ -284,7 +283,7 @@ Yishuang Lin, Yaguang Li, Donghao Fang, Meghna Madhusudan, Sachin S. Sapatnekar,
 
 
 - Attention Routing: Track-Assignment Detailed Routing Using Attention-Based Reinforcement Learning [[PDF]](https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2020/V11AT11A002/1090194)
-  - Haiguang Liao, Qingyi Dong, Xuliang Dong, Wentai Zhang, Wangyang Zhang, Weiyi Qi, Elias Fallon, Levent Burak Kara, IDETC/DAC 2020
+  - *Haiguang Liao, Qingyi Dong, Xuliang Dong, Wentai Zhang, Wangyang Zhang, Weiyi Qi, Elias Fallon, Levent Burak Kara, IDETC/DAC 2020*
 
 
 
