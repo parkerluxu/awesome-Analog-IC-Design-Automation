@@ -7,12 +7,12 @@
   - Analog Circuit Modeling
   - Analog Circuit Sizing Optimization & Analog Circuit Synthesis
   - Analog Circuit Performance Space Exploration
-  - Analog Circuit Design Space Exploration
+  - Analog Circuit Analysis
   - Analog Circuit Placement
   - Analog Circuit Routing
   - Analog IC Fault Testing and Diagnosis
-  - Automation for Analog Circuit Cases
-- Opensource Repositiories
+  - Synthesis-friendly Analog Circuits Design Automation
+- Open-source Repositiories
 
 
 
@@ -32,6 +32,9 @@
 
 ### Analog Circuit Modeling
 
+- Efficient Performance Trade-off Modeling for Analog Circuit based on Bayesian Neural Network [[PDF]](https://ieeexplore.ieee.org/abstract/document/8942174)
+  - Zhengqi Gao, Jun Tao, Fan Yang, Yangfeng su, Dian zhou ,and Xuan Zeng, iccad 2019
+
 - Co-learning Bayesian model fusion: Efﬁcient performance modeling of analog and mixed-signal circuits using side information [[PDF]](https://ieeexplore.ieee.org/abstract/document/7372621/)
   - *Fa Wang, Manzil Zaheer, Xin Li, Jean-Olivier Plouchart, and Alberto Valdes-Garcia, ICCAD, 2015*
 
@@ -50,7 +53,7 @@
 - Modelling and design of inverter threshold quantization based current comparator using artiﬁcial neural networks [[PDF]](https://www.researchgate.net/publication/299518789_Modelling_and_Design_of_Inverter_Threshold_Quantization_based_Current_Comparator_using_Artificial_Neural_Networks)
   - *Veepsa Bhatia, Neeta Pandey, Asok Bhattacharyya, International Journal of Electrical and Computer Engineering (IJECE) 2016*
 
-### Analog Circuit Sizing Optimization
+### Analog Circuit Sizing Optimization & Analog Circuit Synthesis
 
 - Artiﬁcial Neural Network Assisted Analog IC Sizing Tool [[PDF]](https://ieeexplore.ieee.org/abstract/document/8795293)
   - *Gamze İslamoğlu, Tuğberk Oğulcan Çakici, Engin Afacan, Günhan Dündar, SMACD 2019*
@@ -99,12 +102,221 @@
 
 - Deep Reinforcement Learning for Analog Circuit Sizing with an Electrical Design Space and Sparse Rewards [[PDF]](https://dl.acm.org/doi/abs/10.1145/3551901.3556474)
   - *Yannick Uhlmann, Michael Essich, Lennart Bramlage, Jürgen Scheible, and Cristóbal Curio, MLCAD 2022*
+- Domain Knowledge-Infused Deep Learning for Automated Analog/Radio-Frequency Circuit Parameter Optimization [[PDF]](https://dl.acm.org/doi/10.1145/3489517.3530501)
+  - Weidong Cao, Mouhacine Benosman, Xuan Zhang, Rui Ma, DAC 2022
+- VLSI Placement Parameter Optimization using Deep Reinforcement Learning [[PDF]](https://dl.acm.org/doi/10.1145/3400302.3415690)
+  - Anthony Agnesina, Kyungwook Chang, and Sung Kyu Lim, ICCAD 2020
+- GCN-RL Circuit Designer: Transferable Transistor Sizing with Graph Neural Networks and Reinforcement Learning [[PDF]](https://ieeexplore.ieee.org/abstract/document/9218757)
+  - Hanrui Wang, Kuan Wang, Jiacheng Yang, Linxiao Shen, Nan Sun, Hae-Seung Lee, Song Han, DAC 2020
 
 ### Analog Circuit Performance Space Exploration
 
 - An efﬁcient learning based approach for performance exploration on analog and RF circuit synthesis
   - *Po-Cheng Pan, Chien-Chia Huang, and Hung-Ming Chen, DAC 2019*
-- 
+- An Analog/RF Circuit Synthesis and Design Assistant Tool for Analog IP: DATA-IP
 
-## Opensource Repositories
+
+
+- Harvesting design knowledge from the internet: High-dimensional performance tradeoff modeling for large-scale analog circuits
+
+
+
+- Late Breaking Results: An Efﬁcient Learning-based Approach for Performance Exploration on Analog and RF Circuit Synthesis
+
+
+
+- An Artificial Neural Network Assisted Optimization System for Analog Design Space Exploration
+
+
+
+### Analog Circuit Analysis
+
+- Comprehensive generation of hierarchical placement rules for analog integrated circuits
+
+
+
+- Detecting system symmetry constraints for analog circuits with graph similarity.
+
+
+
+- Analog placement constraint extraction and exploration with the application to layout retargeting.
+
+
+
+- S3DET: Detecting system symmetry constraints for analog circuits with graph similarity.
+
+
+
+- Towards decrypting the art of analog layout: Placement quality prediction via transfer learning.
+
+
+
+- Analog layout synthesis with knowledge mining
+
+
+
+- A general approach for identifying hierarchical symmetry constraints for analog circuit layout.
+
+
+
+- GANA: Graph convolutional network based automated netlist annotation for analog circuits.
+
+
+
+- Bayesian optimization assisted hierarchical analog layout synthesis.
+
+
+
+- Design Rule Checking with a CNN Based Feature Extractor
+
+
+
+- MLParest: Machine Learning based Parasitic Estimation for Custom Circuit Design
+
+
+
+### Analog Circuit Placement
+
+- Are Analytical Techniques Worthwhile for Analog IC Placement? [[PDF]](https://ieeexplore.ieee.org/document/9774498/)
+
+Yishuang Lin, Yaguang Li, Donghao Fang, Meghna Madhusudan, Sachin S. Sapatnekar, Ramesh Harjani, Jiang Hu, DATE 2022
+
+- Align: Open-source analog layout automation from the ground up
+
+
+
+- Artiﬁcial Neural Networks as an Alternative for Automatic Analog IC Placement
+
+
+
+- Semi-Supervised Artiﬁcial Neural Networks towards Analog IC Placement Recommender
+
+
+
+- Wellgan: Generative-adversarial-network-guided well generation for analog/mixed-signal circuit layout
+
+
+
+- Two-step RF IC block synthesis with preoptimized inductors and full layout generation in-the-loop
+
+
+
+- Current-ﬂow and current-density-aware multi-objective optimization of analog IC placement
+
+
+
+- Analog placement with current ﬂowand symmetry constraints using PCP-SP
+
+
+
+- MAGICAL: Toward Fully Automated Analog IC Layout Leveraging Human and Machine Intelligence
+
+
+
+- Fully autonomous mixed signal SoC design & layout generation platform
+
+
+
+- GUI-Enhanced layout generation of ffe sst txs for fast high-speed serial link design
+
+
+
+- BAG2: A process-portable framework for generator-based ams circuit design
+
+
+
+- Layout-dependent effects-aware analytical analog placement.
+
+
+
+- Hierarchical and analytical placement techniques for high-performance analog circuits
+
+
+
+- A compiled 9-bit 20-MS/s 3.5-fJ/conv. step SAR ADC in 28-nm FDSOI for bluetooth low energy receivers.
+
+
+
+- A hybrid design automation tool for sar-adcs in IoT
+
+
+
+- Analog placement with current flow and symmetry constraints using PCP-SP
+
+
+
+- Device layer-aware analytical placement for analog circuits.
+
+
+
+- Effective analog/mixed-signal circuit placement considering system signal flow
+
+
+
+- Exploring a machine learning approach to performance driven analog IC placement.
+
+
+
+- A customized graph neural network model for guiding analog IC placement.
+
+
+
+- From Speciﬁcation to Silicon: Towards Analog/Mixed-Signal Design Automation using Surrogate NN Models with Transfer Learning
+
+
+
+### Analog Circuit Routing
+
+- A pre-search assisted ILP approach to analog integrated circuit routing
+
+
+
+- Reliability-driven power/ground routing for analog ICs
+
+
+
+- Toward silicon-proven detailed routing for analog and mixed-signal circuits.
+
+
+
+- GeniusRoute: A new analog routing paradigm using generative neural network guidance.
+
+
+
+- Attention Routing: Track-Assignment Detailed Routing Using Attention-Based Reinforcement Learning [[PDF]](https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2020/V11AT11A002/1090194)
+  - Haiguang Liao, Qingyi Dong, Xuliang Dong, Wentai Zhang, Wangyang Zhang, Weiyi Qi, Elias Fallon, Levent Burak Kara, IDETC/DAC 2020
+
+
+
+### Synthesis-friendly Analog Circuits Design Automation
+
+- An all-digital scalable and reconfigurable wide-input range stochastic ADC using only standard cells.
+
+
+
+- A fully automated verilog-to-layout synthesized ADC demonstrating 56 dB-SNDR with 2 MHz-BW
+
+
+
+- A reusable code-based SAR-ADC design with CDAC compiler and synthesizable analog building blocks.
+
+
+
+- A fully synthesizable distributed and scalable all-digital LDO in 10 nm CMOS
+
+
+
+- A 60-fJ/step 11-ENOB VCO-based CTDSM synthesized from digital standard cell library
+
+
+
+- A scaling compatible, synthesis friendly VCO-based delta-sigma ADC design and synthesis methodology.
+
+
+
+- Edge-pursuit comparator: An energy-scalable oscillator collapse-based comparator with application in a 74.1 dB SNDR and 20 kS/s 15 b SAR ADC.
+
+
+
+## Open-source Repositories
 
