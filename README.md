@@ -18,12 +18,12 @@
 
 ## Survey
 
-- Review: Machine Learning Techniques in Analog/RF Integrated Circuit Design, Synthesis, Layout, and Test
-  - *Engin Afacan, Nuno Lourenço, RicardoMartins, Günhan Dündar, VLSI 2020*
+- Review: Machine Learning Techniques in Analog/RF Integrated Circuit Design, Synthesis, Layout, and Test [[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S0167926020302947?casa_token=Hx7EK98EbcIAAAAA:39QF_rULshCpat5NXpVvCTwAebqRBQTsTCfp1gYmK2mubpu-4ubSebzDx5XGc-7XtkTfxUUrnw)
+  - *Engin Afacan, Nuno Lourenço, RicardoMartins, Günhan Dündar, VLSI 20201*
 
-- Applications of Artiﬁcial Intelligence on the Modeling and Optimization for Analog and Mixed-Signal Circuits: A Review
+- Applications of Artiﬁcial Intelligence on the Modeling and Optimization for Analog and Mixed-Signal Circuits: A Review [[PDF]](https://ieeexplore.ieee.org/abstract/document/9383813)
   - *Morteza Fayazi,  Zachary Colter, Ehsan Afshari,  and Ronald Dreslinski, IEEE TCAS-I 2021*
-- Challenges and opportunities toward fully automated analog layout design
+- Challenges and opportunities toward fully automated analog layout design [[PDF]](https://iopscience.iop.org/article/10.1088/1674-4926/41/11/111407/meta)
   - *Hao Chen, Mingjie Liu, Xiyuan Tang, Keren Zhu, Nan Sun, and David Z. Pan, JOS 2020*
 
 
@@ -47,7 +47,7 @@
 - Modelling a simple current to voltage converter using ANN [[PDF]](https://ieeexplore.ieee.org/abstract/document/7853224/authors#authors)
   - *Veepsa Bhatia, Kriti Gupta, Nidhi Batra, Neeta Pandey, ICPEICES 2016*
 
-- Modelling and design of inverter threshold quantization based current comparator using artiﬁcial neural networks [[PDF]](http://download.garuda.kemdikbud.go.id/article.php?article=1306074&val=146&title=Modelling and Design of Inverter Threshold Quantization based Current Comparator using Artificial Neural Networks)
+- Modelling and design of inverter threshold quantization based current comparator using artiﬁcial neural networks [[PDF]](https://www.researchgate.net/publication/299518789_Modelling_and_Design_of_Inverter_Threshold_Quantization_based_Current_Comparator_using_Artificial_Neural_Networks)
   - *Veepsa Bhatia, Neeta Pandey, Asok Bhattacharyya, International Journal of Electrical and Computer Engineering (IJECE) 2016*
 
 ### Analog Circuit Sizing Optimization
