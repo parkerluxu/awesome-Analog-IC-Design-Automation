@@ -244,3 +244,11 @@
 [magical-eda/MAGICAL: Machine Generated Analog IC Layout](https://github.com/magical-eda/MAGICAL)
 
 [thu-nics/awesome_ai4eda](https://github.com/thu-nics/awesome_ai4eda)
+
+[ucb-art/BAG_framework](https://github.com/ucb-art/BAG_framework)
+
+---
+
+Collect by Xupengkai Lu (student of Institute of Computing Technology, Chinese Academy of Sciences) 
+
+Any advices and suggestions can be provided by creating by issues or contact me for email luxupengkai21s@ict.ac.cn
