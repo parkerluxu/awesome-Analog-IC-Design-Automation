@@ -2,31 +2,17 @@
 
 ## Table of content
 
-- Survey
-- Papers
-  - Analog Circuit Modeling
-  - Analog Circuit Sizing Optimization & Analog Circuit Synthesis
-  - Analog Circuit Performance Space Exploration
-  - Analog Circuit Analysis
-  - Analog Circuit Placement
-  - Analog Circuit Routing
-  - Analog IC Fault Testing and Diagnosis
-  - Synthesis-friendly Analog Circuits Design Automation
-- Open-source Repositiories
-
-
+[TOC]
 
 ## Survey
 
 - Review: Machine Learning Techniques in Analog/RF Integrated Circuit Design, Synthesis, Layout, and Test [[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S0167926020302947?casa_token=Hx7EK98EbcIAAAAA:39QF_rULshCpat5NXpVvCTwAebqRBQTsTCfp1gYmK2mubpu-4ubSebzDx5XGc-7XtkTfxUUrnw)
-  - *Engin Afacan, Nuno Lourenço, RicardoMartins, Günhan Dündar, VLSI 20201*
+  - *Engin Afacan, Nuno Lourenço, RicardoMartins, Günhan Dündar, VLSI 2021*
 
 - Applications of Artiﬁcial Intelligence on the Modeling and Optimization for Analog and Mixed-Signal Circuits: A Review [[PDF]](https://ieeexplore.ieee.org/abstract/document/9383813)
   - *Morteza Fayazi,  Zachary Colter, Ehsan Afshari,  and Ronald Dreslinski, IEEE TCAS-I 2021*
 - Challenges and opportunities toward fully automated analog layout design [[PDF]](https://iopscience.iop.org/article/10.1088/1674-4926/41/11/111407/meta)
   - *Hao Chen, Mingjie Liu, Xiyuan Tang, Keren Zhu, Nan Sun, and David Z. Pan, JOS 2020*
-
-
 
 ## Papers
 
@@ -113,66 +99,45 @@
 
 - An efﬁcient learning based approach for performance exploration on analog and RF circuit synthesis [[PDF]](https://dl.acm.org/doi/abs/10.1145/3316781.3322467)
   - *Po-Cheng Pan, Chien-Chia Huang, and Hung-Ming Chen, DAC 2019*
-- An Analog/RF Circuit Synthesis and Design Assistant Tool for Analog IP: DATA-IP
+- An Analog/RF Circuit Synthesis and Design Assistant Tool for Analog IP: DATA-IP [[PDF]](https://ieeexplore.ieee.org/abstract/document/8434906)
+  - *Ezgi Kaya, Engin Afacan, Gunhan Dundar, SMACD 2018*
 
+- Harvesting design knowledge from the internet: High-dimensional performance tradeoff modeling for large-scale analog circuits [[PDF]](https://ieeexplore.ieee.org/abstract/document/7131496)
+  - *Jun Tao, Changhai Liao, Xuan Zeng, Xin Li, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 2016*
 
-
-- Harvesting design knowledge from the internet: High-dimensional performance tradeoff modeling for large-scale analog circuits
-
-
-
-- Late Breaking Results: An Efﬁcient Learning-based Approach for Performance Exploration on Analog and RF Circuit Synthesis
-
-
-
-- An Artificial Neural Network Assisted Optimization System for Analog Design Space Exploration
-
-
+- An Artificial Neural Network Assisted Optimization System for Analog Design Space Exploration [[PDF]](https://ieeexplore.ieee.org/abstract/document/8937720)
+  - *Yaping Li, Yong Wang, Yusong Li, Ranran Zhou, Zhaojun Lin, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 2020*
 
 ### Analog Circuit Analysis
 
-- Comprehensive generation of hierarchical placement rules for analog integrated circuits
+- S<sup>3</sup>DET: Detecting System Symmetry Constraints for Analog Circuits with Graph Similarity [[PDF]](https://ieeexplore.ieee.org/abstract/document/9045109)
+  - *Mingjie Liu, Wuxi Li, Keren Zhu, Biying Xu, Yibo Lin, Linxiao Shen, Xiyuan Tang, Nan Sun, David Z. Pan, ASP-DAC 2020*
 
+- Analog placement constraint extraction and exploration with the application to layout retargeting. [[PDF]](https://dl.acm.org/doi/abs/10.1145/3177540.3178245)
+  - *Biying Xu, Bulent Basaran, Ming Su, and David Z. Pan, ISPD 2018*
 
+- Towards decrypting the art of analog layout: Placement quality prediction via transfer learning. [[PDF]](https://ieeexplore.ieee.org/abstract/document/9116330)
+  - *Mingjie Liu, Keren Zhu, Jiaqi Gu, Linxiao Shen, Xiyuan Tang, Nan Sun, David Z. Pan, DATE 2020*
 
-- Detecting system symmetry constraints for analog circuits with graph similarity.
+- Analog layout synthesis with knowledge mining [[PDF]](https://ieeexplore.ieee.org/abstract/document/7300111)
+  - *Po-Hsun Wu, Mark Po-Hung Lin, Tsung-Yi Ho, ECCTD 2015*
 
+- A general approach for identifying hierarchical symmetry constraints for analog circuit layout [[PDF]](https://dl.acm.org/doi/abs/10.1145/3400302.3415685)
+  - *Kishor Kunal, Jitesh Poojary, Tonmoy Dhar, Meghna Madhusudan, Ramesh Harjani, and Sachin S. Sapatnekar, ICCAD 2020.*
 
+- GANA: Graph convolutional network based automated netlist annotation for analog circuits [[PDF]](https://ieeexplore.ieee.org/abstract/document/9116329)
+  - *Kunal, Kishor and Dhar, Tonmoy and Madhusudan, Meghna and Poojary, Jitesh and Sharma, Arvind and Xu, Wenbin and Burns, Steven M. and Hu, Jiang and Harjani, Ramesh and Sapatnekar, Sachin S., DATE 2020*
 
-- Analog placement constraint extraction and exploration with the application to layout retargeting.
+- Closing the Design Loop: Bayesian Optimization Assisted Hierarchical Analog Layout Synthesis [[PDF]](https://ieeexplore.ieee.org/abstract/document/9218621/)
+  - *Mingjie Liu, Keren Zhu, Xiyuan Tang, Biying Xu, Wei Shi, Nan Sun, David Z. Pan, DAC 2020*
 
+- Design Rule Checking with a CNN Based Feature Extractor [[PDF]](https://dl.acm.org/doi/abs/10.1145/3380446.3430625)
+  - *Luis Francisco, Tanmay Lagare, Arpit Jain, Somal Chaudhary, Madhura Kulkarni, Divya Sardana, W. Rhett Davis, and Paul Franzon, MLCAD 2020* 
 
-
-- S3DET: Detecting system symmetry constraints for analog circuits with graph similarity.
-
-
-
-- Towards decrypting the art of analog layout: Placement quality prediction via transfer learning.
-
-
-
-- Analog layout synthesis with knowledge mining
-
-
-
-- A general approach for identifying hierarchical symmetry constraints for analog circuit layout.
-
-
-
-- GANA: Graph convolutional network based automated netlist annotation for analog circuits.
-
-
-
-- Bayesian optimization assisted hierarchical analog layout synthesis.
-
-
-
-- Design Rule Checking with a CNN Based Feature Extractor
-
-
-
-- MLParest: Machine Learning based Parasitic Estimation for Custom Circuit Design
-
+- MLParest: Machine Learning based Parasitic Estimation for Custom Circuit Design [[PDF]](https://ieeexplore.ieee.org/abstract/document/9218495)
+  - *Brett Shook, Prateek Bhansali, Chandramouli Kashyap, Chirayu Amin, Siddhartha Joshi, DAC 2020*
+- A customized graph neural network model for guiding analog IC placement [[PDF]](https://dl.acm.org/doi/abs/10.1145/3400302.3415624)
+  - Yaguang Li, Yishuang Lin, Meghna Madhusudan, Arvind Sharma, Wenbin Xu, Sachin S. Sapatnekar, Ramesh Harjani, and Jiang Hu, ICCAD 2020
 
 
 ### Analog Circuit Placement
@@ -180,142 +145,102 @@
 - Are Analytical Techniques Worthwhile for Analog IC Placement? [[PDF]](https://ieeexplore.ieee.org/document/9774498/)
   - *Yishuang Lin, Yaguang Li, Donghao Fang, Meghna Madhusudan, Sachin S. Sapatnekar, Ramesh Harjani, Jiang Hu, DATE 2022*
 
-- Align: Open-source analog layout automation from the ground up
+- Align: Open-source analog layout automation from the ground up [[PDF]](https://dl.acm.org/doi/abs/10.1145/3316781.3323471)
+  - *Kishor Kunal, Meghna Madhusudan, Arvind K. Sharma, Wenbin Xu, Steven M. Burns, Ramesh Harjani, Jiang Hu, Desmond A. Kirkpatrick, and Sachin S. Sapatnekar, DAC 2019*
 
+- Artiﬁcial Neural Networks as an Alternative for Automatic Analog IC Placement [[PDF]](https://ieeexplore.ieee.org/abstract/document/8795267/)
+  - *Daniel Guerra, António Canelas, Ricardo Póvoa, Nuno Horta, Nuno Lourenço, Ricardo Martins, SMACD 2019*
 
+- Semi-Supervised Artiﬁcial Neural Networks towards Analog IC Placement Recommender [[PDF]](https://ieeexplore.ieee.org/abstract/document/9181148)
+  - *António Gusmão, Fábio Passos, Ricardo Póvoa, Nuno Horta, Nuno Lourenço, Ricardo Martins, ISCAS 2020*
 
-- Artiﬁcial Neural Networks as an Alternative for Automatic Analog IC Placement
+- Wellgan: Generative-adversarial-network-guided well generation for analog/mixed-signal circuit layout [[PDF]](https://dl.acm.org/doi/abs/10.1145/3316781.3317930)
+  - *Biying Xu, Yibo Lin, Xiyuan Tang, Shaolan Li, Linxiao Shen, Nan Sun, and David Z. Pan, DAC 2019*
 
+- Two-step RF IC block synthesis with preoptimized inductors and full layout generation in-the-loop [[PDF]](https://ieeexplore.ieee.org/abstract/document/8356050/)
+  - *Ricardo Martins, Nuno Lourenço, Fábio Passos, Ricardo Póvoa, António Canela, Elisenda Roca, Rafael Castro-López, Javier Sieiro, Francisco V. Fernandez, Nuno Horta, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 2019*
 
+- Current-ﬂow and current-density-aware multi-objective optimization of analog IC placement [[PDF]](https://doi.org/10.1016/j.vlsi.2016.05.008)
+  - *Ricardo Martins, Ricardo Póvoa, Nuno Lourenço, Nuno Horta, Integration 2016*
 
-- Semi-Supervised Artiﬁcial Neural Networks towards Analog IC Placement Recommender
+- Analog placement with current ﬂowand symmetry constraints using PCP-SP [[PDF]](https://dl.acm.org/doi/abs/10.1145/3195970.3195990)
+  - *Abhishek Patyal, Po-Cheng Pan, Asha K A, Hung-Ming Chen, Hao-Yu Chi, and Chien-Nan Liu, DAC 2018*
 
+- MAGICAL: Toward Fully Automated Analog IC Layout Leveraging Human and Machine Intelligence [[PDF]](https://ieeexplore.ieee.org/abstract/document/8942060/)
+  - *Biying Xu, Keren Zhu, Mingjie Liu, Yibo Lin, Shaolan Li, Xiyuan Tang, Nan Sun, David Z. Pan, ICCAD 2019*
 
+- GUI-Enhanced layout generation of ffe sst txs for fast high-speed serial link design [[PDF]](https://ieeexplore.ieee.org/abstract/document/9218723/)
+  - *Seungho Han, Sungyu Jeong, Chanho Kim, Hong-June Park, Byungsub Kim, DAC 2020*
 
-- Wellgan: Generative-adversarial-network-guided well generation for analog/mixed-signal circuit layout
+- BAG2: A process-portable framework for generator-based ams circuit design [[PDF]](https://ieeexplore.ieee.org/abstract/document/8357061)
+  - *Eric Chang, Jaeduk Han, Woorham Bae, Zhongkai Wang, Nathan Narevsky, Borivoje NikoliC, Elad Alon, CICC 2018*
 
+- Layout-dependent effects-aware analytical analog placement. [[PDF]](https://dl.acm.org/doi/abs/10.1145/2744769.2744865)
+  - *Hung-Chih Ou, Kai-Han Tseng, Jhao-Yan Liu, I-Peng Wu, and Yao-Wen Chang, DAC 2015*
 
+- Hierarchical and analytical placement techniques for high-performance analog circuits [[PDF]](Hierarchical and analytical placement techniques for high-performance analog circuits)
+  - *Biying Xu, Shaolan Li, Xiaoqing Xu, Nan Sun, and David Z. Pan, ISPD 2017*
 
-- Two-step RF IC block synthesis with preoptimized inductors and full layout generation in-the-loop
+- Device layer-aware analytical placement for analog circuits. [[PDF]](https://dl.acm.org/doi/abs/10.1145/3299902.3309751)
+  - *Biying Xu, Shaolan Li, Chak-Wa Pui, Derong Liu, Linxiao Shen, Yibo Lin, Nan Sun, ISPD 2019*
 
+- Effective analog/mixed-signal circuit placement considering system signal flow [[PDF]](https://dl.acm.org/doi/abs/10.1145/3400302.3415625)
+  - *Keren Zhu, Hao Chen, Mingjie Liu, Xiyuan Tang, Nan Sun, and David Z. Pan, ICCAD 2020*
 
+- Exploring a machine learning approach to performance driven analog IC placement [[PDF]](https://ieeexplore.ieee.org/abstract/document/9154987)
+  - *Yaguang Li, Yishuang Lin, Meghna Madhusudan, Arvind Sharma, Wenbin Xu, Sachin Sapatnekar, Ramesh Harjani, Jiang Hu, ISVLSI 2020*
 
-- Current-ﬂow and current-density-aware multi-objective optimization of analog IC placement
+- From Speciﬁcation to Silicon: Towards Analog/Mixed-Signal Design Automation using Surrogate NN Models with Transfer Learning [[PDF]](https://ieeexplore.ieee.org/abstract/document/9643445/)
+  - *Juzheng Liu, Shiyu Su, Meghna Madhusudan, Mohsen Hassanpourghadi, Samuel Saunders, Qiaochu Zhang, Rezwan Rasul, Yaguang Li, Jiang Hu, Arvind Kumar Sharma, Sachin S. Sapatnekar, Ramesh Harjani, Ramesh Harjani, Sandeep Gupta, Mike Shuo-Wei Chen, ICCAD 2021*
 
+### Analog Circuit Routing 
 
+- A pre-search assisted ILP approach to analog integrated circuit routing [[PDF]](https://ieeexplore.ieee.org/abstract/document/7357110)
+  - *Chia-Yu Wu, Helmut Graeb, Jiang Hu, ICCD 2015*
 
-- Analog placement with current ﬂowand symmetry constraints using PCP-SP
 
+- Reliability-driven power/ground routing for analog ICs [[PDF]](https://dl.acm.org/doi/abs/10.1145/2071356.2071362)
+  - *Jing-Wei Lin, Tsung-Yi Ho, and Iris Hui-Ru Jiang, ACM Transactions on Design Automation of Electronic Systems 2012*
 
+- Toward silicon-proven detailed routing for analog and mixed-signal circuits [[PDF]](https://dl.acm.org/doi/abs/10.1145/3400302.3415660)
+  - *Hao Chen, Keren Zhu, Mingjie Liu, Xiyuan Tang, Nan Sun, and David Z. Pan, ICCAD 2020*
 
-- MAGICAL: Toward Fully Automated Analog IC Layout Leveraging Human and Machine Intelligence
-
-
-
-- Fully autonomous mixed signal SoC design & layout generation platform
-
-
-
-- GUI-Enhanced layout generation of ffe sst txs for fast high-speed serial link design
-
-
-
-- BAG2: A process-portable framework for generator-based ams circuit design
-
-
-
-- Layout-dependent effects-aware analytical analog placement.
-
-
-
-- Hierarchical and analytical placement techniques for high-performance analog circuits
-
-
-
-- A compiled 9-bit 20-MS/s 3.5-fJ/conv. step SAR ADC in 28-nm FDSOI for bluetooth low energy receivers.
-
-
-
-- A hybrid design automation tool for sar-adcs in IoT
-
-
-
-- Analog placement with current flow and symmetry constraints using PCP-SP
-
-
-
-- Device layer-aware analytical placement for analog circuits.
-
-
-
-- Effective analog/mixed-signal circuit placement considering system signal flow
-
-
-
-- Exploring a machine learning approach to performance driven analog IC placement.
-
-
-
-- A customized graph neural network model for guiding analog IC placement.
-
-
-
-- From Speciﬁcation to Silicon: Towards Analog/Mixed-Signal Design Automation using Surrogate NN Models with Transfer Learning
-
-
-
-### Analog Circuit Routing
-
-- A pre-search assisted ILP approach to analog integrated circuit routing
-
-
-
-- Reliability-driven power/ground routing for analog ICs
-
-
-
-- Toward silicon-proven detailed routing for analog and mixed-signal circuits.
-
-
-
-- GeniusRoute: A new analog routing paradigm using generative neural network guidance.
-
-
+- GeniusRoute: A new analog routing paradigm using generative neural network guidance. [[PDF]](https://ieeexplore.ieee.org/abstract/document/8942164)
+  - *Keren Zhu, Mingjie Liu, Yibo Lin, Biying Xu, Shaolan Li, Xiyuan Tang, Nan Sun, David Z. Pan, ICCAD 2019*
 
 - Attention Routing: Track-Assignment Detailed Routing Using Attention-Based Reinforcement Learning [[PDF]](https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2020/V11AT11A002/1090194)
   - *Haiguang Liao, Qingyi Dong, Xuliang Dong, Wentai Zhang, Wangyang Zhang, Weiyi Qi, Elias Fallon, Levent Burak Kara, IDETC/DAC 2020*
 
-
-
 ### Synthesis-friendly Analog Circuits Design Automation
 
-- An all-digital scalable and reconfigurable wide-input range stochastic ADC using only standard cells.
+- An all-digital scalable and reconfigurable wide-input range stochastic ADC using only standard cells [[PDF]](An all-digital scalable and reconfigurable wide-input range stochastic ADC using only standard cells.)
+  - *Ahmed Fahmy, Jun Liu, Taewook Kim, Nima Maghari, IEEE Transactions on Circuits and Systems II 2015*
 
+- A fully automated verilog-to-layout synthesized ADC demonstrating 56 dB-SNDR with 2 MHz-BW [[PDF]](https://ieeexplore.ieee.org/abstract/document/7387508/)
+  - *Allen Waters, Un-Ku Moon, A-SSCC 2015*
 
+- A reusable code-based SAR-ADC design with CDAC compiler and synthesizable analog building blocks [[PDF]](https://ieeexplore.ieee.org/abstract/document/8331129/)
+  - *Min-Jae Seo, Yi-Ju Roh, Dong-Jin Chang, Wan Kim, Ye-Dam Kim, Seung-Tak Ryu, IEEE Transactions on Circuits and Systems II 2018*
 
-- A fully automated verilog-to-layout synthesized ADC demonstrating 56 dB-SNDR with 2 MHz-BW
+- A fully synthesizable distributed and scalable all-digital LDO in 10 nm CMOS [[PDF]](https://ieeexplore.ieee.org/abstract/document/9063040/)
+  - *Suyoung Bang, Wootaek Lim, Charles Augustine, Andres Malavasi, Muhammad Khellah, James Tschanz, Vivek De, ISSCC 2020*
 
+- A 60-fJ/step 11-ENOB VCO-based CTDSM synthesized from digital standard cell library [[PDF]](https://ieeexplore.ieee.org/abstract/document/8780194/)
+  - *Shaolan Li, Biying Xu, David Z. Pan, Nan Sun, CICC 2019*
 
+- A scaling compatible, synthesis friendly VCO-based delta-sigma ADC design and synthesis methodology [[PDF]](https://dl.acm.org/doi/abs/10.1145/3061639.3062192)
+  - *Biying Xu, Shaolan Li, Nan Sun, and David Z. Pan, ADC 2017*
 
-- A reusable code-based SAR-ADC design with CDAC compiler and synthesizable analog building blocks.
+- Edge-pursuit comparator: An energy-scalable oscillator collapse-based comparator with application in a 74.1 dB SNDR and 20 kS/s 15 b SAR ADC
+  - *Minseob Shim, Seokhyeon Jeong, Paul D. Myers, Suyoung Bang, Junhua Shen, Chulwoo Kim, Dennis Sylvester, David Blaauw, Wanyeong Jung, IEEE Journal of Solid-State Circuits 2017*
 
-
-
-- A fully synthesizable distributed and scalable all-digital LDO in 10 nm CMOS
-
-
-
-- A 60-fJ/step 11-ENOB VCO-based CTDSM synthesized from digital standard cell library
-
-
-
-- A scaling compatible, synthesis friendly VCO-based delta-sigma ADC design and synthesis methodology.
-
-
-
-- Edge-pursuit comparator: An energy-scalable oscillator collapse-based comparator with application in a 74.1 dB SNDR and 20 kS/s 15 b SAR ADC.
-
-
+- A Hybrid Design Automation Tool for SAR ADCs in IoT [[PDF]](https://ieeexplore.ieee.org/abstract/document/8463579)
+  - *Ming Ding; Pieter Harpe; Guibin Chen; Benjamin Busze; Yao-Hong Liu; Christian Bachmann; Kathleen Philips, Arthur van Roermund, IEEE TVLSI 2018*
 
 ## Open-source Repositories
 
+[ALIGN-analoglayout/ALIGN-public](https://github.com/ALIGN-analoglayout/ALIGN-public)
+
+[magical-eda/MAGICAL: Machine Generated Analog IC Layout](https://github.com/magical-eda/MAGICAL)
+
+[thu-nics/awesome_ai4eda](https://github.com/thu-nics/awesome_ai4eda)
