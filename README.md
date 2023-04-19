@@ -1,10 +1,21 @@
 # Awesome-Analog-IC-Design-Automation
 
+This is github for Survey for Analog-IC-Design-Automation.
+
 ## Table of content
 
-[TOC]
+- [Survey](#1)
+- [Papers](#2)
+  - [Analog Circuit Modeling](#2.1)
+  - [Analog Circuit Sizing Optimization & Analog Circuit Synthesis](#2.2)
+  - [Analog Circuit Performance Space Exploration](#2.3)
+  - [Analog Circuit Analysis](#2.4)
+  - [Analog Circuit Placement](#2.5)
+  - [Analog Circuit Routing](#2.6)
+  - [Synthesis-friendly Analog Circuits Design Automation](#2.7)
+- [Open-source repositories](#3)
 
-## Survey
+## <a id="1">Survey</a>
 
 - Review: Machine Learning Techniques in Analog/RF Integrated Circuit Design, Synthesis, Layout, and Test [[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S0167926020302947?casa_token=Hx7EK98EbcIAAAAA:39QF_rULshCpat5NXpVvCTwAebqRBQTsTCfp1gYmK2mubpu-4ubSebzDx5XGc-7XtkTfxUUrnw)
   - *Engin Afacan, Nuno Lourenço, RicardoMartins, Günhan Dündar, VLSI 2021*
@@ -14,9 +25,9 @@
 - Challenges and opportunities toward fully automated analog layout design [[PDF]](https://iopscience.iop.org/article/10.1088/1674-4926/41/11/111407/meta)
   - *Hao Chen, Mingjie Liu, Xiyuan Tang, Keren Zhu, Nan Sun, and David Z. Pan, JOS 2020*
 
-## Papers
+## <a id="2">Papers</a>
 
-### Analog Circuit Modeling
+### <a id="2.1">Analog Circuit Modeling</a>
 
 - Efficient Performance Trade-off Modeling for Analog Circuit based on Bayesian Neural Network [[PDF]](https://ieeexplore.ieee.org/abstract/document/8942174)
   - *Zhengqi Gao, Jun Tao, Fan Yang, Yangfeng su, Dian zhou ,and Xuan Zeng, iccad 2019*
@@ -39,7 +50,7 @@
 - Modelling and design of inverter threshold quantization based current comparator using artiﬁcial neural networks [[PDF]](https://www.researchgate.net/publication/299518789_Modelling_and_Design_of_Inverter_Threshold_Quantization_based_Current_Comparator_using_Artificial_Neural_Networks)
   - *Veepsa Bhatia, Neeta Pandey, Asok Bhattacharyya, International Journal of Electrical and Computer Engineering (IJECE) 2016*
 
-### Analog Circuit Sizing Optimization & Analog Circuit Synthesis
+### <a id="2.2">Analog Circuit Sizing Optimization & Analog Circuit Synthesis</a>
 
 - Artiﬁcial Neural Network Assisted Analog IC Sizing Tool [[PDF]](https://ieeexplore.ieee.org/abstract/document/8795293)
   - *Gamze İslamoğlu, Tuğberk Oğulcan Çakici, Engin Afacan, Günhan Dündar, SMACD 2019*
@@ -95,7 +106,7 @@
 - GCN-RL Circuit Designer: Transferable Transistor Sizing with Graph Neural Networks and Reinforcement Learning [[PDF]](https://ieeexplore.ieee.org/abstract/document/9218757)
   - *Hanrui Wang, Kuan Wang, Jiacheng Yang, Linxiao Shen, Nan Sun, Hae-Seung Lee, Song Han, DAC 2020*
 
-### Analog Circuit Performance Space Exploration
+### <a id="2.3">Analog Circuit Performance Space Exploration</a>
 
 - An efﬁcient learning based approach for performance exploration on analog and RF circuit synthesis [[PDF]](https://dl.acm.org/doi/abs/10.1145/3316781.3322467)
   - *Po-Cheng Pan, Chien-Chia Huang, and Hung-Ming Chen, DAC 2019*
@@ -108,7 +119,7 @@
 - An Artificial Neural Network Assisted Optimization System for Analog Design Space Exploration [[PDF]](https://ieeexplore.ieee.org/abstract/document/8937720)
   - *Yaping Li, Yong Wang, Yusong Li, Ranran Zhou, Zhaojun Lin, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 2020*
 
-### Analog Circuit Analysis
+### <a id="2.4">Analog Circuit Analysis</a>
 
 - S<sup>3</sup>DET: Detecting System Symmetry Constraints for Analog Circuits with Graph Similarity [[PDF]](https://ieeexplore.ieee.org/abstract/document/9045109)
   - *Mingjie Liu, Wuxi Li, Keren Zhu, Biying Xu, Yibo Lin, Linxiao Shen, Xiyuan Tang, Nan Sun, David Z. Pan, ASP-DAC 2020*
@@ -140,7 +151,7 @@
   - Yaguang Li, Yishuang Lin, Meghna Madhusudan, Arvind Sharma, Wenbin Xu, Sachin S. Sapatnekar, Ramesh Harjani, and Jiang Hu, ICCAD 2020
 
 
-### Analog Circuit Placement
+### <a id="2.5">Analog Circuit Placement</a>
 
 - Are Analytical Techniques Worthwhile for Analog IC Placement? [[PDF]](https://ieeexplore.ieee.org/document/9774498/)
   - *Yishuang Lin, Yaguang Li, Donghao Fang, Meghna Madhusudan, Sachin S. Sapatnekar, Ramesh Harjani, Jiang Hu, DATE 2022*
@@ -193,7 +204,7 @@
 - From Speciﬁcation to Silicon: Towards Analog/Mixed-Signal Design Automation using Surrogate NN Models with Transfer Learning [[PDF]](https://ieeexplore.ieee.org/abstract/document/9643445/)
   - *Juzheng Liu, Shiyu Su, Meghna Madhusudan, Mohsen Hassanpourghadi, Samuel Saunders, Qiaochu Zhang, Rezwan Rasul, Yaguang Li, Jiang Hu, Arvind Kumar Sharma, Sachin S. Sapatnekar, Ramesh Harjani, Ramesh Harjani, Sandeep Gupta, Mike Shuo-Wei Chen, ICCAD 2021*
 
-### Analog Circuit Routing 
+### <a id="2.6">Analog Circuit Routing</a>
 
 - A pre-search assisted ILP approach to analog integrated circuit routing [[PDF]](https://ieeexplore.ieee.org/abstract/document/7357110)
   - *Chia-Yu Wu, Helmut Graeb, Jiang Hu, ICCD 2015*
@@ -211,7 +222,7 @@
 - Attention Routing: Track-Assignment Detailed Routing Using Attention-Based Reinforcement Learning [[PDF]](https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2020/V11AT11A002/1090194)
   - *Haiguang Liao, Qingyi Dong, Xuliang Dong, Wentai Zhang, Wangyang Zhang, Weiyi Qi, Elias Fallon, Levent Burak Kara, IDETC/DAC 2020*
 
-### Synthesis-friendly Analog Circuits Design Automation
+### <a id="2.7">Synthesis-friendly Analog Circuits Design Automation</a>
 
 - An all-digital scalable and reconfigurable wide-input range stochastic ADC using only standard cells [[PDF]](An all-digital scalable and reconfigurable wide-input range stochastic ADC using only standard cells.)
   - *Ahmed Fahmy, Jun Liu, Taewook Kim, Nima Maghari, IEEE Transactions on Circuits and Systems II 2015*
@@ -231,13 +242,13 @@
 - A scaling compatible, synthesis friendly VCO-based delta-sigma ADC design and synthesis methodology [[PDF]](https://dl.acm.org/doi/abs/10.1145/3061639.3062192)
   - *Biying Xu, Shaolan Li, Nan Sun, and David Z. Pan, ADC 2017*
 
-- Edge-pursuit comparator: An energy-scalable oscillator collapse-based comparator with application in a 74.1 dB SNDR and 20 kS/s 15 b SAR ADC
+- Edge-pursuit comparator: An energy-scalable oscillator collapse-based comparator with application in a 74.1 dB SNDR and 20 kS/s 15 b SAR ADC [[PDF]](https://ieeexplore.ieee.org/document/7815388)
   - *Minseob Shim, Seokhyeon Jeong, Paul D. Myers, Suyoung Bang, Junhua Shen, Chulwoo Kim, Dennis Sylvester, David Blaauw, Wanyeong Jung, IEEE Journal of Solid-State Circuits 2017*
 
 - A Hybrid Design Automation Tool for SAR ADCs in IoT [[PDF]](https://ieeexplore.ieee.org/abstract/document/8463579)
   - *Ming Ding; Pieter Harpe; Guibin Chen; Benjamin Busze; Yao-Hong Liu; Christian Bachmann; Kathleen Philips, Arthur van Roermund, IEEE TVLSI 2018*
 
-## Open-source Repositories
+## <a id="3">Open-source Repositories</a>
 
 [ALIGN-analoglayout/ALIGN-public](https://github.com/ALIGN-analoglayout/ALIGN-public)
 
@@ -251,4 +262,4 @@
 
 Collect by Xupengkai Lu (student of Institute of Computing Technology, Chinese Academy of Sciences) 
 
-Any advices and suggestions can be provided by creating by issues or contact me for email luxupengkai21s@ict.ac.cn
+Any advice and suggestion can be provided by creating by issues or contact me for email luxupengkai21s@ict.ac.cn
