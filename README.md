@@ -260,6 +260,6 @@ This is github for Survey for Analog-IC-Design-Automation.
 
 ---
 
-Collect by Xupengkai Lu (student of Institute of Computing Technology, Chinese Academy of Sciences) 
+Collect by Xupengkai Lu 
 
 Any advice and suggestion can be provided by creating by issues or contact me for email luxupengkai21s@ict.ac.cn
