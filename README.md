@@ -30,7 +30,7 @@ This is github for Survey for Analog-IC-Design-Automation.
 ### <a id="2.1">Analog Circuit Modeling</a>
 
 - Efficient Performance Trade-off Modeling for Analog Circuit based on Bayesian Neural Network [[PDF]](https://ieeexplore.ieee.org/abstract/document/8942174)
-  - *Zhengqi Gao, Jun Tao, Fan Yang, Yangfeng su, Dian zhou ,and Xuan Zeng, iccad 2019*
+  - *Zhengqi Gao, Jun Tao, Fan Yang, Yangfeng su, Dian zhou ,and Xuan Zeng, ICCAD 2019*
 
 - Co-learning Bayesian model fusion: Efﬁcient performance modeling of analog and mixed-signal circuits using side information [[PDF]](https://ieeexplore.ieee.org/abstract/document/7372621/)
   - *Fa Wang, Manzil Zaheer, Xin Li, Jean-Olivier Plouchart, and Alberto Valdes-Garcia, ICCAD, 2015*
